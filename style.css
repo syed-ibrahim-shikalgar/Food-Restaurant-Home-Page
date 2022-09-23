@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Orbitron:wght@400;500;600;700;800;900&family=Oswald:wght@200;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,800;0,900;1,400;1,500;1,600;1,800;1,900&family=Red+Rose:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Rose", cursive;
+  }
+
+body{
+    background: 
+        linear-gradient(to bottom, rgba(3, 33, 61, 0.60), rgba(3, 33, 61, 0.60)), 
+        url(./images/bg.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+} 
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.list-item {
+    color: #FFC233;
+    margin-right: 90px;
+}
+
+.button-small {
+    padding: 10px 40px;
+    color: #fff;
+    background-color: #FF505F;
+    border: none;
+    font-size: 20px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 30px 25% 0 25%;
+}
+
+.hero-heading {
+    color: #FFC233;
+    font-size: 80px;
+}
+
+.button-large {
+    color: #fff;
+    background-color: #FF505F;
+    padding: 20px 80px;
+    border: none;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.bottom img {
+    height: 110px;
+    right: 0;
+    position: absolute;
+    margin-right: 70px;
+}
