@@ -10,7 +10,7 @@
 
 ## Description
 
->A street style landing page created by using `HTML` and `CSS`. This project is hosted on Netlify.
+>A Food Restaurant Home page created by using `HTML` and `CSS`. This project is hosted on Netlify.
 
 **Created By**: Syed Ibrahim Shikalgar
 
